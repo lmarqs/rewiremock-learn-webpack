@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "webpack-dev-server --mode=development",
+    "build:dev": "webpack --mode=development --devtool=none",
+    "build:prod": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.4.1",
+    "rewiremock": "^3.14.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
